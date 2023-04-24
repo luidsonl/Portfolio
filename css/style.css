@@ -51,7 +51,7 @@ nav {
     text-align: center;
   }
   main li{
-    margin:30px;
+    margin:20px;
   }
   main a{
     color: #335;
@@ -60,5 +60,28 @@ nav {
   main img{
     border: solid #335 4px;
     margin: 15px;
+  }
+  main .row{
+    display: flex;
+  }
+  main .column{
+    width: 50%;
+  }
+  .profile-picture{
+    display: block;
+    margin: auto;
+    width: 350px;
+  }
+  .bio{
+    margin: 20px 0;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  .description{
+    padding-top: 35px;
+  }
+  .github{
+    text-align: right;
   }
   
