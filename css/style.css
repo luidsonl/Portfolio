@@ -48,6 +48,7 @@ nav {
   }
   h1{
     margin-bottom: 30px;
+    text-align: center;
   }
   main li{
     margin:30px;
@@ -55,5 +56,9 @@ nav {
   main a{
     color: #335;
     text-decoration: none;
+  }
+  main img{
+    border: solid #335 4px;
+    margin: 15px;
   }
   
