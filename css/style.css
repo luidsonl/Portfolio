@@ -84,4 +84,19 @@ nav {
   .github{
     text-align: right;
   }
-  
+/*Responsividade*/
+@media only screen and (max-width:850px){
+  main .row{
+    flex-direction: column;
+  }
+  main .column{
+    width: 100%;
+  }
+  img, .profile-picture{
+    width: 100%;
+    max-width: 350px;
+  }
+  ul{
+    padding-left: 15px;
+  }
+}
