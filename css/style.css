@@ -38,6 +38,10 @@ nav {
     background-color: #fff;
     color: #333;
   }
+  nav .active{
+    background-color: #fff;
+    color: #333;
+  }
 
   /*Estilização do conteúdo*/
   main{
@@ -67,6 +71,11 @@ nav {
   main .column{
     width: 50%;
   }
+  p{
+    margin-bottom: 10px;
+  }
+
+  /*Sobre mim */
   .profile-picture{
     display: block;
     margin: auto;
@@ -75,14 +84,15 @@ nav {
   .bio{
     margin: 20px 0;
   }
-  p{
-    margin-bottom: 10px;
-  }
+  /*Portfólio*/
   .description{
     padding-top: 35px;
   }
   .github{
     text-align: right;
+  }
+  .hide{
+    display: none;
   }
 /*Responsividade*/
 @media only screen and (max-width:850px){
